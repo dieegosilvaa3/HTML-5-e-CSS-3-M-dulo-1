@@ -1,0 +1,7 @@
+.foto_borda {
+    border: 6px double rgb(6, 119, 40);
+    padding: 5px;
+    border-radius: 50%;
+    width: 200px;
+    height: 190px;
+  }
