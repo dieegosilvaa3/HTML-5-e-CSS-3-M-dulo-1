@@ -1,0 +1,101 @@
+📘 Guia Rápido – HTML5 & CSS3
+
+1. HTML5 – Estrutura e Semântica
+--------------------------------
+Esqueleto básico:
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Título</title>
+</head>
+<body>
+  <h1>Olá Mundo!</h1>
+</body>
+</html>
+--------------------------------
+Tags comuns:
+- <h1>…<h6>  → títulos
+- <p>         → parágrafo
+- <img src="foto.png" alt="descrição"> → imagem
+- <a href="link">texto</a> → link
+- <hr>        → linha horizontal
+- <br>        → quebra de linha
+--------------------------------
+Formatação de texto:
+- <b>       → negrito (semântico fraco)
+- <strong>  → negrito (importante)
+- <i>       → itálico (semântico fraco)
+- <em>      → itálico (ênfase)
+- <mark>    → destaque
+- <small>   → texto menor
+- <del>     → riscado
+- <ins>     → sublinhado (inserção)
+- <sup>     → sobrescrito (x²)
+- <sub>     → subscrito (H₂O)
+- <code>    → código
+- <pre>     → texto pré-formatado
+- <q>       → citação curta
+- <blockquote> → citação longa
+- <abbr title="…"> → abreviação
+- <!-- comentário -->
+--------------------------------
+Listas:
+- <ol> → lista ordenada
+- <ul> → lista não ordenada
+- <li> → item da lista
+- <dl> → lista de definição
+- <dt> → termo
+- <dd> → descrição
+--------------------------------
+Formulários:
+- <input type="text|email|password">
+- <textarea>
+- <button>
+Atributos: required, minlength, maxlength
+--------------------------------
+Multimídia:
+- <audio controls src="som.mp3"></audio>
+- <video controls src="video.mp4"></video>
+--------------------------------
+Links avançados:
+- target="_blank" → abre em nova aba
+- rel="noopener noreferrer" → segurança
+- rel="external|next|prev|nofollow" → semântica
+--------------------------------
+2. CSS3 – Estilo e Layout
+--------------------------------
+Seletores avançados:
+#id, .classe, elemento, elemento:hover, pai > filho
+--------------------------------
+Flexbox:
+display: flex;
+justify-content: center;
+align-items: center;
+--------------------------------
+Grid Layout:
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+--------------------------------
+Transições e animações:
+transition: all 0.3s ease;
+@keyframes mover { from {…} to {…} }
+--------------------------------
+3. Boas Práticas
+--------------------------------
+- Separar HTML (estrutura) de CSS (estilo)
+- Usar classes semânticas (ex.: .menu-principal)
+- Garantir responsividade com @media
+- Acessibilidade: alt em imagens, contraste adequado
+--------------------------------
+4. Extras
+--------------------------------
+Entidades HTML:
+&lt; <   &gt; >   &copy; ©   &reg; ®   &trade; ™
+&euro; €   &cent; ¢   &deg; °   &uarr; ↑
+
+Emojis: &#x1F600; ou copiar de emojipedia.org
+Favicons: <link rel="shortcut icon" href="favicon.ico">
+JavaScript no HTML: <script src="script.js" defer></script>
